@@ -212,10 +212,12 @@ savetask.addEventListener("click", function () {
   
    if(x.value[0]=='5'){
      document.getElementById("mastercard").style.display = "block"
+     document.getElementById("visa").style.display = "none"
      
    }
    else if(x.value[0]=='4'){
     document.getElementById("visa").style.display = "block"
+    document.getElementById("mastercard").style.display = "none"
     
   }
  }
