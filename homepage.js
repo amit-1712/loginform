@@ -220,6 +220,11 @@ savetask.addEventListener("click", function () {
     document.getElementById("mastercard").style.display = "none"
     
   }
+  else{
+    document.getElementById("visa").style.display = "none"
+    document.getElementById("mastercard").style.display = "none"
+
+  }
  }
 
 
