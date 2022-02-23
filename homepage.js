@@ -13,14 +13,6 @@ const indexsaver = document.getElementById("indexsaver");
 
 function cardadder() {
 
-  // console.log(cardnumber.value.toString().length);
-  // console.log(cardexp.value.toString().length);
-  // console.log(cardcvv.value.toString().length);
-
-
- 
-
-
   if (cardname.value !== "" &&    cardnumber.value !== "" && cardnumber.value.toString().length == 12    &&  cardexp.value !== "" && cardexp.value.toString().length==4  && cardcvv !== "" &&cardcvv.value.toString().length==3 ) {
 
     const cardnameVal = cardname.value;

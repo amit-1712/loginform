@@ -32,6 +32,7 @@ const checkpassword = document.getElementById("checkpassword");
 function loginbtn() {
 
     if (checkuser.value !== "" && checkpassword.value !== "" ) {
+        
         const checkuserVal = checkuser.value;
         const checkuserPassword = checkpassword.value;
         let saver = document.getElementById("indexsaver");
@@ -49,6 +50,9 @@ function loginbtn() {
 
 
 
+            }
+            else{
+                alert("wrong login detais");
             }
 
 
